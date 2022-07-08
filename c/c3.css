@@ -1,0 +1,48 @@
+body,ul,li,h1,h2,p{padding:0;margin:0;list-style-type:none}
+body{z-index:2;font-family:'Century Gothic',sans-serif;font-size:.875rem;background-color:#ccc;color:#fff}
+#w{position:absolute;margin:0 auto 0 -31.25rem;width:62.5rem;left:50%;background-color:#2675AF;top:0;bottom:0;box-shadow:0 0 5px #1b1b1b}
+#con{position:relative;width:62.5rem;background-color:#2675AF;}
+header{height:5.5rem; position: fixed;width: 62.5rem;background: none no-repeat scroll center center / auto 4rem transparent;padding-top:1.5rem;background: none;font-family:'Times New Roman', serif;text-align: center;font-size:1.75rem;font-weight: bold;top: 0;z-index: 99;background-color: #2675af;}
+header span{font-size: 1.375rem}
+h1,h2{font-family:'Century Gothic',serif;color:#111}
+h1{font-size:1.125rem;padding:.5rem 0 1rem}
+h2{font-size:1rem;padding:0 0 .5rem}
+h3{font-size:1.125rem; text-align: center}
+a{color:#fff;text-decoration:none}
+p{padding:0 0 1rem}
+
+/*nav,ul,li*/
+nav{position:fixed;vertical-align:top;width:15rem;margin-top:7rem}
+nav li{display:block;position:relative;white-space:nowrap;margin-bottom:.125rem;background-color:#8ac8f0;opacity:1;transition:.3s 0s}
+nav li.navhover{background-color:#2675af;opacity:1}
+/*logo,menuon*/
+#nav02 li:nth-of-type(1){opacity:1}
+#nav02 li:nth-of-type(1) a{border-top:2rem solid #8ac8f0;background-color:#2675af;background-image:url(/m/_logo.gif);background-size:contain;background-repeat:no-repeat;background-position:top left;height:2.5rem}
+/*a,b*/
+nav a,nav b{display:block;background-size:auto 1rem;background-repeat:no-repeat}
+nav a{padding:.5rem;height:1rem;letter-spacing:.0625rem;background-position:left center;background-origin:content-box;color:#000;font-family:"Century Gothic",Tahoma,sans-serif;background-image:url(/m/bullet.gif);transition:.15s all}
+nav a:hover{background-color:#eee}
+nav b{font-weight:normal;margin-left:1.25rem}
+
+#dcon,footer{position:relative;width:46.5rem;margin:7rem 0 0 16rem}
+#dcon{position:relative;z-index:60;display:inline-block;vertical-align:top;box-shadow:-2px 2px 5px #595959}
+#dcon>div{background-color:#eee;color:#000;padding:1rem;text-align:justify;min-height: 30rem}
+#dcon ul{display:inline-block;padding-left:.25rem;vertical-align:top}
+#dcon ul:nth-of-type(2){width:20rem}
+#dcon li{background-image:url(/m/dot.gif);background-repeat:no-repeat;padding:.375rem 0 0 1.25rem;background-position:0 .475rem;background-size: .875rem}
+#dcon a{color:#000;text-decoration: underline}
+.inlinediv {position:relative;display:inline-block;width:47%;vertical-align:top; padding-bottom:1rem;text-align:left}
+
+footer,footer a{font-size:.625rem;color:#ddd;padding-bottom:1rem;margin-top:1rem}
+
+.contact{padding:.5rem 0;margin:0 0 0.5rem .75rem}
+span.tabbed{color:#ddd;display:inline-block;position:relative;width:3rem}
+#dcon span.tabbed{color:#555}
+.contact a {padding: unset;height: unset;letter-spacing: unset;color: unset;background: none; text-decoration: underline;display: unset;}
+
+.newsdate{display:inline-block;width:70px}
+.newslink{font-size:10px;padding:0 0 10px 70px}
+.tabdiv{display:inline-block;width:5rem;list-style:none;background-image:url(/m/list_marker.gif);background-repeat:no-repeat;background-position:4px 0;padding:0 .75rem;color:#000}
+
+.em01{font-weight:bold}
+.red {text-transform: uppercase;font-weight: bold;color: red}
